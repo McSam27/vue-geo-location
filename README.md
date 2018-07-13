@@ -25,16 +25,16 @@ You need firebase API keys
 ```js
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyDcOddrHNLMm_ppBjBFUOX7idwvBO8BMBc",
-  authDomain: "udemy-geo-location.firebaseapp.com",
-  databaseURL: "https://udemy-geo-location.firebaseio.com",
-  projectId: "udemy-geo-location",
-  storageBucket: "udemy-geo-location.appspot.com",
-  messagingSenderId: "1078458786811"
+  apiKey: "YOUR_API_KEY_HERE",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  databaseURL: "YOUR_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID"
 };
 ```
 
 As well as:
 ```html
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbx0A7bmktP7kiLgGH-awzswHA4HdJ3kg"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE"></script>
 ```
